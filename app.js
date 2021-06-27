@@ -1,4 +1,10 @@
 $(function(){
+  $('button').on('click',function(){
+    $('ul').children().css('color','red');
+  });
+});
+
+$(function(){
   $('.box1').mouseover(function(){
     $('.box1').addClass('box1-ext');
   });
@@ -20,4 +26,4 @@ $(function(){
   $('.box3').on('click',function(){
     $(this).slideUp();
   });
-})
+});
