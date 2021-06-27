@@ -15,3 +15,9 @@ $(function(){
     $('.box2').removeClass('box2-ext');
   });
 });
+
+$(function(){
+  $('.box3').on('click',function(){
+    $(this).slideUp();
+  });
+})

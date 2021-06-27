@@ -1,5 +1,5 @@
 .box1 {
-  background-color: #FF0000;
+  background-color: #ff0000;
   height: 200px;
   width: 200px;
 }
@@ -9,11 +9,34 @@
 }
 
 .box2 {
-  background-color: #0000FF;
+  background-color: #0000ff;
   height: 200px;
   width: 200px;
 }
 
 .box2-ext {
   border: 10px solid black;
+}
+
+.box3 {
+  background-color: #fff;
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+
+.bg3 {
+  background-color: #ffaaaa;
+}
+
+.bg4 {
+  background-color: #ffbbbb;
+}
+
+.bg5 {
+  background-color: #ffcccc;
+}
+
+.bg6 {
+  background-color: #ffdddd;
 }
